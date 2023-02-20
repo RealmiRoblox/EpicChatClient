@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "UP/8Hcg/T1mv2sEGwt13Y4Uf1HdQiLxHBE2UKMyyGhGZNjBbrm8UEn0s/kyX1zUrisDhoaxNjOB9UujT5JEeHw==",
+  "dgSpecHash": "2J+7wcOxha4xBP4ON5LZX3cnZnURLZbYmObfdjZmCD7gNRbKbwXCcoXUV6KY3nlkRb6a6UtBlV8fmS4PjTSTOA==",
   "success": true,
   "projectFilePath": "C:\\Users\\BaraK\\Videos\\EpicChatClientWebView2\\EpicChatClient\\EpicChatClient\\EpicChatClient.csproj",
   "expectedPackageFiles": [
@@ -8,7 +8,7 @@
     "C:\\Users\\BaraK\\.nuget\\packages\\microsoft.win32.systemevents\\6.0.0\\microsoft.win32.systemevents.6.0.0.nupkg.sha512",
     "C:\\Users\\BaraK\\.nuget\\packages\\system.drawing.common\\6.0.0\\system.drawing.common.6.0.0.nupkg.sha512",
     "C:\\Users\\BaraK\\.nuget\\packages\\wpf-ui\\2.0.3\\wpf-ui.2.0.3.nupkg.sha512",
-    "C:\\Users\\BaraK\\.nuget\\packages\\microsoft.windows.sdk.net.ref\\10.0.17763.27\\microsoft.windows.sdk.net.ref.10.0.17763.27.nupkg.sha512"
+    "C:\\Users\\BaraK\\.nuget\\packages\\microsoft.windows.sdk.net.ref\\10.0.17763.28\\microsoft.windows.sdk.net.ref.10.0.17763.28.nupkg.sha512"
   ],
   "logs": []
 }

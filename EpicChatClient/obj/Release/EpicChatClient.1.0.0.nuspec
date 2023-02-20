@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>EpicChatClient</id>
+    <version>1.0.0</version>
+    <authors>EpicChatClient</authors>
+    <description>Package Description</description>
+    <dependencies>
+      <group targetFramework="net6.0-windows10.0.17763">
+        <dependency id="Microsoft.Web.WebView2" version="1.0.1518.46" exclude="Build,Analyzers" />
+        <dependency id="WPF-UI" version="2.0.3" exclude="Build,Analyzers" />
+      </group>
+    </dependencies>
+    <frameworkReferences>
+      <group targetFramework="net6.0-windows10.0.17763">
+        <frameworkReference name="Microsoft.WindowsDesktop.App.WPF" />
+      </group>
+    </frameworkReferences>
+  </metadata>
+  <files>
+    <file src="C:\Users\BaraK\Videos\EpicChatClientWebView2\EpicChatClient\EpicChatClient\bin\Release\net6.0-windows10.0.17763.0\EpicChatClient.runtimeconfig.json" target="lib\net6.0-windows10.0.17763\EpicChatClient.runtimeconfig.json" />
+    <file src="C:\Users\BaraK\Videos\EpicChatClientWebView2\EpicChatClient\EpicChatClient\bin\Release\net6.0-windows10.0.17763.0\EpicChatClient.dll" target="lib\net6.0-windows10.0.17763\EpicChatClient.dll" />
+  </files>
+</package>

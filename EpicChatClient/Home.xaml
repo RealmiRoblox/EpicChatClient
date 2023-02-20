@@ -47,6 +47,6 @@
                 </StackPanel>
             </Grid>
         </Grid>
-        <wv2:WebView2 x:Name="BrowserWindow" Source="https://legalchat.rf.gd/" Grid.Row="1"/>
+        <wv2:WebView2 x:Name="BrowserWindow" Source="https://web2909.craft-host.ru/" Grid.Row="1"/>
     </Grid>
 </Page>

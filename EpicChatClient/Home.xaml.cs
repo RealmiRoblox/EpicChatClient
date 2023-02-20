@@ -48,7 +48,7 @@ namespace EpicChatClient
 
         private void Button_Click_2(object sender, RoutedEventArgs e)
         {
-            BrowserWindow.CoreWebView2.Navigate("https://legalchat.rf.gd/");
+            BrowserWindow.CoreWebView2.Navigate("https://web2909.craft-host.ru/");
         }
 
         private void Button_Click_3(object sender, RoutedEventArgs e)
@@ -71,15 +71,22 @@ namespace EpicChatClient
         {
             if (e.Key == Key.Enter)
             {
-                if (UrlInput.Text.Contains("legalchat.rf.gd") == true)
+                if (UrlInput.Text.Contains("web2909.craft-host.ru") == true)
                 {
-                    BrowserWindow.CoreWebView2.Navigate(UrlInput.Text);
+                    if (UrlInput.Text.Contains("https://") == false)
+                    {
+                        BrowserWindow.CoreWebView2.Navigate("https://" + UrlInput.Text);
+                    }
+                    if (UrlInput.Text.Contains("https://") == true)
+                    {
+                        BrowserWindow.CoreWebView2.Navigate(UrlInput.Text);
+                    }
                 }
                 if (UrlInput.Text == "DevTools")
                 {
                     BrowserWindow.CoreWebView2.OpenDevToolsWindow();
                 }
-                if (UrlInput.Text.Contains("legalchat.rf.gd") == false)
+                if (UrlInput.Text.Contains("web2909.craft-host.ru") == false)
                 {
                     if (UrlInput.Text.Contains("DevTools") == false) {
                         MessageBox.Show("Это не ссылка приглашения");
